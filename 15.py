@@ -25,11 +25,3 @@ class Solution(object):
                 else:
                     k -= 1
         return [list(i) for i in result]
-
-def test_run():
-    a = Solution()
-    b = a.threeSum([-1, 0, 1, 2, -1, -4])
-    print(b)
-    
-if __name__ == "__main__":
-    test_run()
